@@ -1,0 +1,71 @@
+Building Library\Bee\artifacts\Android\x6ly2\kgov4b0ylu4o.o failed with output:
+In file included from Library/Bee/artifacts/Android/x6ly2/tt4tgcw0mhm90.lump.cpp:2:
+D:\Projects\finalfive-client\HybridCLRData\LocalIl2CppData-WindowsEditor\il2cpp\libil2cpp\gc\BoehmGC.cpp(125,5): error: no matching function for call to 'GC_set_mark_stack_empty'
+    GC_set_mark_stack_empty(push_ephemerons);
+    ^~~~~~~~~~~~~~~~~~~~~~~
+D:\Projects\finalfive-client\HybridCLRData\LocalIl2CppData-WindowsEditor\il2cpp\external\bdwgc\include\gc_mark.h(330,21): note: candidate function not viable: no known conversion from 'void ()' to 'GC_mark_stack_empty_proc' (aka 'struct GC_ms_entry *(*)(struct GC_ms_entry *, struct GC_ms_entry *)') for 1st argument
+GC_API void GC_CALL GC_set_mark_stack_empty (GC_mark_stack_empty_proc);
+                    ^
+1 error generated.
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+ABuilderSettingInspector:GoBuildAPK (string) (at Assets/ABuilder/Editor/ABuilderSettingInspector.cs:461)
+ABuilderSettingInspector:OnScriteReload () (at Assets/ABuilder/Editor/ABuilderSettingInspector.cs:548)
+ABuilderSettingInspector:RunBuildAPP (System.Action) (at Assets/ABuilder/Editor/ABuilderSettingInspector.cs:344)
+ABuilderSettingInspector:OnInspectorGUI () (at Assets/ABuilder/Editor/ABuilderSettingInspector.cs:204)
+Sirenix.OdinInspector.Editor.OdinEditorWindow:DrawEditor (int) (at Y:/Repositories/sirenix-development-framework/Sirenix Solution/Sirenix.OdinInspector.Editor/OdinEditorWindow/OdinEditorWindow.cs:931)
+Sirenix.OdinInspector.Editor.OdinEditorWindow:DrawEditors () (at Y:/Repositories/sirenix-development-framework/Sirenix Solution/Sirenix.OdinInspector.Editor/OdinEditorWindow/OdinEditorWindow.cs:740)
+Sirenix.OdinInspector.Editor.OdinEditorWindow:OnGUI () (at Y:/Repositories/sirenix-development-framework/Sirenix Solution/Sirenix.OdinInspector.Editor/OdinEditorWindow/OdinEditorWindow.cs:673)
+Sirenix.OdinInspector.Editor.OdinMenuEditorWindow:OnGUI () (at Y:/Repositories/sirenix-development-framework/Sirenix Solution/Sirenix.OdinInspector.Editor/OdinEditorWindow/OdinMenuEditorWindow.cs:351)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+
+Building Library\Bee\artifacts\Android\87lik\ot9z5ipl6brv.o failed with output:
+In file included from Library/Bee/artifacts/Android/87lik/tt4tgcw0mhm90.lump.cpp:2:
+D:\Projects\finalfive-client\HybridCLRData\LocalIl2CppData-WindowsEditor\il2cpp\libil2cpp\gc\BoehmGC.cpp(125,5): error: no matching function for call to 'GC_set_mark_stack_empty'
+    GC_set_mark_stack_empty(push_ephemerons);
+    ^~~~~~~~~~~~~~~~~~~~~~~
+D:\Projects\finalfive-client\HybridCLRData\LocalIl2CppData-WindowsEditor\il2cpp\external\bdwgc\include\gc_mark.h(330,21): note: candidate function not viable: no known conversion from 'void ()' to 'GC_mark_stack_empty_proc' (aka 'struct GC_ms_entry *(*)(struct GC_ms_entry *, struct GC_ms_entry *)') for 1st argument
+GC_API void GC_CALL GC_set_mark_stack_empty (GC_mark_stack_empty_proc);
+                    ^
+1 error generated.
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+ABuilderSettingInspector:GoBuildAPK (string) (at Assets/ABuilder/Editor/ABuilderSettingInspector.cs:461)
+ABuilderSettingInspector:OnScriteReload () (at Assets/ABuilder/Editor/ABuilderSettingInspector.cs:548)
+ABuilderSettingInspector:RunBuildAPP (System.Action) (at Assets/ABuilder/Editor/ABuilderSettingInspector.cs:344)
+ABuilderSettingInspector:OnInspectorGUI () (at Assets/ABuilder/Editor/ABuilderSettingInspector.cs:204)
+Sirenix.OdinInspector.Editor.OdinEditorWindow:DrawEditor (int) (at Y:/Repositories/sirenix-development-framework/Sirenix Solution/Sirenix.OdinInspector.Editor/OdinEditorWindow/OdinEditorWindow.cs:931)
+Sirenix.OdinInspector.Editor.OdinEditorWindow:DrawEditors () (at Y:/Repositories/sirenix-development-framework/Sirenix Solution/Sirenix.OdinInspector.Editor/OdinEditorWindow/OdinEditorWindow.cs:740)
+Sirenix.OdinInspector.Editor.OdinEditorWindow:OnGUI () (at Y:/Repositories/sirenix-development-framework/Sirenix Solution/Sirenix.OdinInspector.Editor/OdinEditorWindow/OdinEditorWindow.cs:673)
+Sirenix.OdinInspector.Editor.OdinMenuEditorWindow:OnGUI () (at Y:/Repositories/sirenix-development-framework/Sirenix Solution/Sirenix.OdinInspector.Editor/OdinEditorWindow/OdinMenuEditorWindow.cs:351)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+
+BuildFailedException: Incremental Player build failed!
+UnityEditor.Modules.BeeBuildPostprocessor.PostProcess (UnityEditor.Modules.BuildPostProcessArgs args) (at <58158fa5247e42af9544990ea0885e7f>:0)
+UnityEditor.Modules.DefaultBuildPostprocessor.PostProcess (UnityEditor.Modules.BuildPostProcessArgs args, UnityEditor.BuildProperties& outProperties) (at <58158fa5247e42af9544990ea0885e7f>:0)
+UnityEditor.Android.AndroidBuildPostprocessor.PostProcess (UnityEditor.Modules.BuildPostProcessArgs args, UnityEditor.BuildProperties& outProperties) (at <8726dd6620e34d1287c5f82caa1b502d>:0)
+UnityEditor.PostprocessBuildPlayer.Postprocess (UnityEditor.BuildTargetGroup targetGroup, UnityEditor.BuildTarget target, System.Int32 subtarget, System.String installPath, System.String companyName, System.String productName, System.Int32 width, System.Int32 height, UnityEditor.BuildOptions options, UnityEditor.RuntimeClassRegistry usedClassRegistry, UnityEditor.Build.Reporting.BuildReport report) (at <58158fa5247e42af9544990ea0885e7f>:0)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions)
+ABuilderSettingInspector:GoBuildAPK(String) (at Assets/ABuilder/Editor/ABuilderSettingInspector.cs:461)
+ABuilderSettingInspector:OnScriteReload() (at Assets/ABuilder/Editor/ABuilderSettingInspector.cs:548)
+ABuilderSettingInspector:RunBuildAPP(Action) (at Assets/ABuilder/Editor/ABuilderSettingInspector.cs:344)
+ABuilderSettingInspector:OnInspectorGUI() (at Assets/ABuilder/Editor/ABuilderSettingInspector.cs:204)
+Sirenix.OdinInspector.Editor.OdinEditorWindow:DrawEditor(Int32) (at Y:/Repositories/sirenix-development-framework/Sirenix Solution/Sirenix.OdinInspector.Editor/OdinEditorWindow/OdinEditorWindow.cs:931)
+Sirenix.OdinInspector.Editor.OdinEditorWindow:DrawEditors() (at Y:/Repositories/sirenix-development-framework/Sirenix Solution/Sirenix.OdinInspector.Editor/OdinEditorWindow/OdinEditorWindow.cs:740)
+Sirenix.OdinInspector.Editor.OdinEditorWindow:OnGUI() (at Y:/Repositories/sirenix-development-framework/Sirenix Solution/Sirenix.OdinInspector.Editor/OdinEditorWindow/OdinEditorWindow.cs:673)
+Sirenix.OdinInspector.Editor.OdinMenuEditorWindow:OnGUI() (at Y:/Repositories/sirenix-development-framework/Sirenix Solution/Sirenix.OdinInspector.Editor/OdinEditorWindow/OdinMenuEditorWindow.cs:351)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr, Boolean&)
+
+
+Pop call mismatch; no corresponding push call! Each call to Pop must always correspond to one - and only one - call to Push.
+UnityEngine.Debug:LogError (object)
+Sirenix.Utilities.Editor.GUIScopeStack`1<single>:Pop () (at Y:/Repositories/sirenix-development-framework/Sirenix Solution/Sirenix.Utilities.Editor/GUI/GUIScopeStack.cs:29)
+Sirenix.Utilities.Editor.GUIHelper:PopLabelWidth () (at Y:/Repositories/sirenix-development-framework/Sirenix Solution/Sirenix.Utilities.Editor/GUI/GUIHelper.cs:896)
+Sirenix.OdinInspector.Editor.OdinEditorWindow:OnGUI () (at Y:/Repositories/sirenix-development-framework/Sirenix Solution/Sirenix.OdinInspector.Editor/OdinEditorWindow/OdinEditorWindow.cs:677)
+Sirenix.OdinInspector.Editor.OdinMenuEditorWindow:OnGUI () (at Y:/Repositories/sirenix-development-framework/Sirenix Solution/Sirenix.OdinInspector.Editor/OdinEditorWindow/OdinMenuEditorWindow.cs:351)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+
+1. 换unity2021.3.16好像能解决
+2. 升级到HybridCLR 4.0.4好像能解决
+https://et-framework.cn/d/1390-et7/4
